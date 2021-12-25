@@ -1,0 +1,112 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html{
+  font-family: sans-serif;
+}
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+  background: linear-gradient(135deg, #5b3b5c, #783d6d, #983b72, #bc3668, #d73851, #e85046, #f58357, #ffb56b);
+}
+  
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: none;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #000000;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #33b2c9;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #33b2c9;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset{
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+  border: none;
+}
+legend{
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: large;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+select {
+  padding: 6px;
+  height: 45px;
+  border-radius: 2px;
+}
+
+.h1{
+  color: rgb(58, 49, 38); 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1 a{
+  color: rgb(18, 37, 150);
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+    min-height: 400px;
+  }
+
+}
